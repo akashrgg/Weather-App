@@ -19,7 +19,9 @@
 }
 
 
-
+.rrr{
+    border-radius: 40px;
+}
 .error{
     display: none;
 }
