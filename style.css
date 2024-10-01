@@ -24,13 +24,27 @@
     display: none;
 }
 body{
-   
+    
     background-image: url(bg-2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 120vh;
+    transition: background-image 1s ease-in-out; /* Smooth transition */
+    background-attachment: fixed; 
     animation: backgroundAnimation 10s ease infinite;
+}
+ /* Responsive adjustments for smaller screens */
+ @media (max-width: 768px) {
+    body {
+        background-position: top; /* Adjust position on smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        background-size: contain; /* Adjust size for very small screens */
+        background-position: top; /* Align the image to the top */
+    }
 }
 
 @keyframes backgroundAnimation {
