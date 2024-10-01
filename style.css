@@ -1,0 +1,46 @@
+.round{
+    border-radius: 30px;
+    
+}
+.r2{
+    border-radius: 100px;
+   
+}
+.pa{
+    padding-top: 15px;
+}
+.w{
+    width: 450px;
+   height: 10vh;
+}
+.martop{
+    margin-left: 20px;
+    
+}
+.weather{
+    display: none;
+}
+.error{
+    display: none;
+}
+body{
+   
+    background-image: url(bg-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 120vh;
+    animation: backgroundAnimation 10s ease infinite;
+}
+
+@keyframes backgroundAnimation {
+    0% {
+        background-position: center;
+    }
+    50% {
+        background-position: right center;
+    }
+    100% {
+        background-position: center;
+    }
+}
