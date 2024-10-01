@@ -33,19 +33,6 @@ body{
     background-attachment: fixed; 
     animation: backgroundAnimation 10s ease infinite;
 }
- /* Responsive adjustments for smaller screens */
- @media (max-width: 768px) {
-    body {
-        background-position: top; /* Adjust position on smaller screens */
-    }
-}
-
-@media (max-width: 480px) {
-    body {
-        background-size: contain; /* Adjust size for very small screens */
-        background-position: top; /* Align the image to the top */
-    }
-}
 
 @keyframes backgroundAnimation {
     0% {
