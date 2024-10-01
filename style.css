@@ -21,6 +21,10 @@
 
 .rrr{
     border-radius: 40px;
+
+}
+.h{
+    height: 15vh;
 }
 .error{
     display: none;
