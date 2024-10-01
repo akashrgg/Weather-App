@@ -30,7 +30,7 @@ body{
     background-size: cover;
     background-position: center;
     transition: background-image 1s ease-in-out; /* Smooth transition */
-    
+    height: 110vh;
     animation: backgroundAnimation 10s ease infinite;
 }
 
