@@ -18,18 +18,21 @@
     
 }
 .weather{
-    display: none;
+   
 }
+
+
 .error{
     display: none;
 }
+
 body{
     
     background-image: url(bg-2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 120vh;
+    
     animation: backgroundAnimation 10s ease infinite;
 }
 

@@ -42,8 +42,8 @@ async function checkWeather(city) {
            document.querySelector(".weather").style.display ="block"   
            document.querySelector(".error").style.display = "none";
            document.querySelector(".wa").value = ""
-           document.body.style.backgroundImage = "none";
-           document.body.style.backgroundImage = "url(bgc6.jpg)"
+           document.body.style.backgroundImage = "";
+           
 
            
     }
